@@ -1,0 +1,166 @@
+/* Mobile App CTA */
+.app-cta {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 80px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    /* margin: 80px 0; */
+}
+
+.app-content {
+    display: flex;
+    align-items: center;
+}
+
+.app-text {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.app-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.app-text h2 span {
+    color: #3498db;
+}
+
+.app-text p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.app-stats {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-stars {
+    color: #f1c40f;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.app-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.app-btn:hover {
+    transform: translateY(-3px);
+}
+
+.app-store-btn {
+    background: black;
+    color: white;
+}
+
+.play-store-btn {
+    background: white;
+    color: black;
+}
+
+.btn-icon {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-text span {
+    font-size: 0.7rem;
+}
+
+.btn-text strong {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.app-image {
+    flex: 1;
+    position: relative;
+}
+
+.app-image img {
+    width: 100%;
+    /* max-width: 300px; */
+    display: block;
+    margin: 0 auto;
+}
+
+.app-highlight {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 2s infinite;
+}
+
+.highlight-text {
+    margin-top: 10px;
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7);
+    }
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(231, 76, 60, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+    }
+}
